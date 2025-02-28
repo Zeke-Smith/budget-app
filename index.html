@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Budget App">
+  <meta name="author" content="Zeke and Carol">
+  <title>We Are Suffering</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- <link rel="javascript" href="IDEK.js"> -->
+</head>
+<body>
+  <script src="script.js"></script>
+
+  <h1>
+      Carol and Zeke's Amazing Budget App
+  </h1>
+
+  <p>
+      Hello welcome to our bugeting app! 
+  </p>
+
+  <br>
+
+  <p>
+      Calculator
+  </p>
+
+  <br>
+
+  <!-- number to modify -->
+  <label for="number1"></label>
+
+  <input 
+    class="number"
+    type="number"
+    id="number1"
+    name="number1"
+    required
+    minlength="1"
+    maxlength="8"
+    size="20"/>
+
+  <br>
+
+  <!-- +, -, x, and / -->
+
+
+
+  <!-- + -->
+  <label for="Add"></label>
+  <input 
+    class="opperations"
+    type="button"
+    id="Add"
+    name="Add"
+    value="+"
+    onclick="appendOperator('+')"
+    size="20" />
+
+  <!-- - -->
+  <label for="subtaction"></label>
+  <input
+    class="opperations"
+    type="button"
+    id="subtaction"
+    name="subtaction"
+    value="-"
+    onclick="appendOperator('-')"
+    size="20" />
+
+  <br>
+
+
+  <!-- x -->
+  <label for="multiplication"></label>
+  <input
+  class="opperations"
+  type="button"
+  id="multiplication"
+  name="multiplication"
+  value="x"
+  onclick="appendOperator('x')"
+  size="20" />
+
+  <!-- / -->
+  <label for="division"></label>
+  <input
+    class="opperations"
+    type="button"
+    id="equals"
+    name="equals"
+    value="÷"
+    onclick="appendOperator('/')"
+    length="10"
+    width="20" />
+
+  <br>
+
+
+  <!-- number modifying -->
+  <label for="number2"></label>
+
+  <input
+    class="number"
+    type="number"
+    id="number2"
+    name="number2"
+    required
+    minlength="1"
+    maxlength="8"
+    size="20" />
+
+  <br>
+
+  <!-- Equal button -->
+  <label for="equals"></label>
+
+
+  <input
+    class="equal"
+    type="button"
+    id="equals"
+    name="equals"
+    required
+    minlength="1"
+    maxlength="8"
+    value="="
+    onclick="run()"
+    size="20" />
+
+
+  <br>
+
+  <output>
+    
+
+  </output>
+
+</body>
