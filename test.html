@@ -1,4 +1,4 @@
-÷<h1>
+<h1>
     Carol and Zeke's Amazing Budget App
 </h1>
 
@@ -30,6 +30,8 @@
 
 <!-- +, -, x, and / -->
 
+
+
 <!-- + -->
 <label for="Add">:</label>
 
@@ -42,6 +44,7 @@
   minlength="1"
   maxlength="8"
   value="+"
+  onclick="appendOperator('+')"
   size="20" />
 
 <!-- - -->
@@ -56,6 +59,7 @@
   minlength="1"
   maxlength="8"
   value="-"
+  onclick="appendOperator('-')"
   size="20" />
 
 
@@ -73,6 +77,7 @@ required
 minlength="1"
 maxlength="8"
 value="x"
+onclick="appendOperator('x')"
 size="20" />
 
 <!-- / -->
@@ -87,6 +92,7 @@ size="20" />
   minlength="1"
   maxlength="8"
   value="÷"
+  onclick="appendOperator('÷')"
   size="20" />
 
 
@@ -118,6 +124,7 @@ size="20" />
   minlength="1"
   maxlength="8"
   value="="
+  onclick="run('÷')"
   size="20" />
 
 
